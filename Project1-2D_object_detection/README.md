@@ -108,6 +108,10 @@ Created a new file `detect.py` for testing the images. Run the following code ba
 ```bash
 python3 detect.py --saved_model_path=/home/lavanya/Downloads/project1nd/training/reference/experiment/exported_model/saved_model --test_path=/home/lavanya/Downloads/project1nd/test_image --output_path=/home/lavanya/Downloads/project1nd/output/ --min_score_thresh=.1
 ```
-
-
+## REFERENCES
+1. [Self driving car- udacity Nano degree](https://classroom.udacity.com/nanodegrees/nd0013/parts/6f5460e5-fab9-4c78-b31a-ea5e7f1d285c/modules/52716294-bc19-4cd7-b332-64e5250cd613/lessons/39c92933-f5ba-4b80-963e-b78f50ef45a6/concepts/c4a046bc-3653-4e01-84f9-b2c4a67d610c)
+2. [Tensorflow object detection API tutorial](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/index.html)
+3. [waymo open dataset - quick start tutorial](https://colab.research.google.com/github/waymo-research/waymo-open-dataset/blob/r1.0/tutorial/tutorial.ipynb)
+4. [gyes-object detection api](https://gyes00205.medium.com/waymo-open-dataset-tensorflow-2-object-detection-api-49e38671f69f)
+5. [Onject detction api YOUTUBE turotial - sentdex](https://www.youtube.com/watch?v=COlbP62-B-U&list=PLQVvvaa0QuDcNK5GeCQnxYnSSaar2tpku)
 
