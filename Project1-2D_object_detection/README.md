@@ -15,17 +15,6 @@ Requirements
 
 
 
-
-
-## Deployment
-
-To deploy this project run
-
-```bash
-  npm run deploy
-```
-
-
 ## Build
 Build the image with:
 
