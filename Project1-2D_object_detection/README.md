@@ -69,6 +69,10 @@ You can run the script using the following (you will need to add your desired di
 python3 download_process.py --data_dir /home/lavanya/Downloads/project1nd/processed --temp_dir /home/lavanya/Downloads/project1nd/training_data
 
 ```
+## EXPLORATORY DATA ANALYSIS
+
+Now that you have downloaded and processed the data, you should explore the dataset! This is the most important task of any machine learning project. To do so, open the Exploratory Data Analysis notebook.  `Display_instances` function is implemented to display images and annotations using matplotlib
+
 ## EDIT THE CONFIG FILE
 Now you are ready for training. The Tf Object Detection API relies on config files. The config that we will use for this project is pipeline.config, which is the config for a SSD Resnet 50 640x640 model. You can learn more about the Single Shot Detector [here](https://arxiv.org/pdf/1512.02325.pdf).
 First, let's download the [pretrained model](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md) and move it to training/pretrained-models/.
